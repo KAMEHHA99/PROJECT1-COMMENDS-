@@ -1,0 +1,322 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Документ</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- .h1-6 shrift razmer text. p САМ ТЕКСТ. СПАН ОТДЕЛЬНЫЕ СЛОВА. ИТАЛИК-->
+    <!-- OL ЦЕЛАЯ СКОБКА ДЛЯ ПОДДАНЫХ НУМЕРАЦИИ. LI САМА НУМЕРАЦИЯ. КАЖДОЕ ВЫРАЖЕНИЕ НОВОЕ LI -->
+    <!-- ALT И ВЫДЕЛЕНИЕ ОТДЕЛЬНЫХ ВЫРАЖЕНИЙ+ALTX И САМ ОПЕРАТОР (h,p,a,ol,li) -->
+    <!-- IMG (SRC-URL ФОТКИ, ALT- АЛЬТЕРНАТИВА(ссылка, текст, если ссылка в юрл поврежденна)) -->
+    <!-- font-weight(BOLD)-ЖИРНОСТЬ ТЕКСТА, РАМОК. BORDER-WIDTH(ЖИРНОСТЬ САМОЙ РАМКИ В КОНТЕЙНЕРЕ) -->
+    <!-- Свойство float, flex убирается блочность -->
+    <!-- ЧТобы в контейнере поместить всё в столбец(изображения) СОздаём див, туда всю инфу. Они блочные(надо седалть флекс, станут инлайн), display:flex, flex-direction:column(COLUMN ОТОБРАЖЕНИЕ В СТОЛБЕЦ) -->
+    <!-- Tag(nav)Навигационная панель.Список. С flex используется только justify-content. space between(разделяет списки по макси длине) -->
+    <!-- Окно поиска(tag input). search тип поиска (password, search, login, time), placeholder(текст на панель) -->
+    <!-- ПАДДИНГ ЭТО ОТСТУП НАПРИМЕР В КОНТЕЙНЕРЕ СИМВОЛА ОТ ВСЕХ ШИРОТ -->
+    <!-- BORDER-STYLE(ВИД РАМКИ(ПУНКТИР,ЖИРНАЯ), ЖИРНОСТЬ И РАЗМЕР САМОЙ РАМКИ(BORDER-WIDTH)) -->
+    <!--JUSTIFY CONTENT(ОТОБРАЖЕНИЕ, ГДЕ БУДЕТ НАХОДИТСЯ КОНТЕЙНЕР) -->
+    <!-- MARGIN(ОТСТУП ОТ ВЕРХНЕГО КРАЯ СТРАНИЦЫ) -->
+    <!-- PADDING(ПОЛЕ ВОКРУГ ТЕКСТА) -->
+    <!-- List-style:none убирает цифры с последовательных записей в панели -->
+    <!-- В КОНТЕЙНЕРЕ МОЖНО СДЕЛАТЬ У ПОСЛЕДОВАТЕЛЬНЫХ НАДПИСЕЙ НИЖНИЕ ПОДЧЕРКИВАНИЯ, ВЫГЛЯДИТ КАК РАЗНЫЕ КОНТЕЙНЕРЫ(border-bottom-style:solid, жирность этой линии border-width:10px) -->
+    <!-- (ЕСЛИ ХОТИМ ИЗМЕНИТЬ РАЗМЕР НАДПИСИ font-size).(ЕСЛИ ХОТИМ СДЕЛАТЬ ТЕКСТ ЖИРНЕЕ font-weight) -->
+    <!-- КАК МАСШТАБИРУЕТСЯ ИЗОБРАЖЕНИЕ В КОНТЕЙНЕРЕ: СОздаем ещё один тег в контейнере, туда фотку и записывает в этот тег width:100%, и в тег самой фотки >img width:100% -->
+    <!-- TAg TABLE, tr(таблица) tr это уже сам текст или ссылки файлы имг -->
+    <!-- FLOAT ПЕРЕДВИГАНИЕ ОБЪЕКТОВ КОНТЕЙНЕРОВ ПО УГЛАМ . ВАЖНО!!!-->
+    <!-- ЧТОБЫ ИЗМЕНИТЬ РАССТОЯНИЕ МЕЖДУ ЭЛЛЕМЕНТАМИ В LI НАДО прописать padding 0 20px(ПЕРВОЕ ЧИСЛО ВЕРТИКАЛЬ, второе горизонталь) -->
+    <!-- ЧТОБЫ УБРАТЬ ВСЕ НИЖНИЕ ЛИНИИ С ССЫЛОК В ТЕГЕ A HREF, В HEADE ЗАПИСЫВАЕМ СТАЙЛ далее обращаемся ко всем тегам a{text-decoration:none} -->
+    <div class="page">
+
+        <div class="header">
+            <div>
+                
+                <img src="img/8e17b5fad921f119d87506c4beba50c7.jpeg" alt="">
+            </div>
+            <ol>
+                <li><a href="#">Заглавная страница</a></li>
+                <li><a href="#">Содержание</a></li>
+                <li><a href="#">Избранные статьи</a></li>
+                <li><a href="#">Случайная статья</a></li>
+                <li><a href="#">Текущие события</a></li>
+                <li><a href="#">Пожертвовать</a></li>
+                <p> Участие </p>
+            </ol>
+
+            <ol>
+                <li><a href="#">Сообщить об ошибке</a></li>
+                <li><a href="#">Как править статьи</a></li>
+                <li><a href="#">Сообщество</a></li>
+                <li><a href="#">Форум</a></li>
+                <li><a href="#">Свежие правки</a></li>
+                <li><a href="#">Новые страницы</a></li>
+                <li><a href="#">Справка</a></li>
+            </ol>
+            <ol>
+                <li><a href="#">Ссылки сюда</a></li>
+                <li><a href="#">Связанные правки</a></li>
+                <li><a href="#">Служебные страницы</a></li>
+                <li><a href="#">Постоянная ссылка</a></li>
+                <li><a href="#">Сведения о странице</a></li>
+                <li><a href="#">Цитировать страницу</a></li>
+            </ol>
+            <ol>
+                <li><a href="#">Создать книгу</a></li>
+                <li><a href="#">Скачать как PDF</a></li>
+                <li><a href="#">Версия для печати</a></li>
+
+            </ol>
+            <ol>
+                <li><a href="#">Викисклад</a></li>
+                <li><a href="#">Викиучебник</a></li>
+                <li><a href="#">Викиновости</a></li>
+                <li><a href="#">Викиверситет</a></li>
+                <li><a href="#">Элемент Викиданных</a></li>
+
+            </ol>
+            <ol>
+                <li><a href="#">Azərbaycanca</a></li>
+                <li><a href="#">Башҡортса</a></li>
+                <li><a href="#">Нохчийн</a></li>
+                <li><a href="#">Чӑвашла</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">Suomi</a></li>
+                <li><a href="#">Հայերեն</a></li>
+                <li><a href="#">Олык марий</a></li>
+                <li><a href="#">Српски / srpski</a></li>
+            </ol>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="section">
+            <div class="panel">
+                <nav>
+                    <ul>
+                        <li><a href="#">Статья</a></li>
+                        <li><a href="#">Обсуждение</a></li>
+
+
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="#">Читать</a></li>
+                        <li><a href="#">Текущая версия</a></li>
+                        <li><a href="#">Править</a></li>
+                        <li><a href="#">Править код</a></li>
+                        <li><a href="#">История</a></li>
+
+
+                        <input type="search" placeholder="Искать в Википедии">
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="TEXT-page">
+                <h1>HTML</h1>
+                <div class="img-conteiner">
+                    <p>HTML</p>
+                    <div>
+                        <img class="logo_HTML5"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"
+                            alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/411px-HTML.svg.png"
+                            alt="Kartinka s vikipedii">
+                        <img class="third"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/HTML_logo.png/145px-HTML_logo.png"
+                            alt="">
+                        <div class="conteiner2">
+                            <p><a href="https://ru.wikipedia.org/wiki/Расширение_имени_файла">Расширение</a> .html или
+                                .htm
+                            </p>
+                            <p>
+                                <a href="https://ru.wikipedia.org/wiki/MIME">MIME</a>-тип text/html[1]
+                            </p>
+                            <p>Разработчик <a
+                                    href="https://ru.wikipedia.org/wiki/Консорциум_Всемирной_паутины">Консорциум
+                                    Всемирной паутины</a>, <a
+                                    href="https://ru.wikipedia.org/wiki/Инженерный_совет_Интернета">Инженерный совет
+                                    Интернета</a> и <a href="https://ru.wikipedia.org/wiki/WHATWG">WHATWG</a></p>
+                            <h2>Опубликован</h2>
+                            <p> 1993</p>
+                            <p>Тип формата Язык разметки</p>
+                            <p>Расширен из SGML[2]</p>
+                            <p>Стандарт(ы) W3C HTML 5.2
+                                WHATWG HTML Living Standard</p>
+                            <p>Сайт html.spec.whatwg.org/multipage/ </p>
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <p>
+                    HTML (от <a href="https://ru.wikipedia.org/wiki/Английский_язык"> англ</a> <span
+                        style="font-style:italic;">
+                        HyperText Markup Language </span>
+                    — «язык <a href="https://ru.wikipedia.org/wiki/Гипертекст" target="_blank
+            "> гипертекстовой </a> разметки»)
+                    — стандартизированный язык гипертекстовой разметки документов для
+                    просмотра <a href="https://ru.wikipedia.org/wiki/Веб-страница">веб-страниц</a> в <a
+                        href="https://ru.wikipedia.org/wiki/Браузер">браузере</a>. Веб-браузеры получают HTML документ
+                    от
+                    сервера по протоколам <a href="https://ru.wikipedia.org/wiki/HTTP">HTTP</a>/<a
+                        href="https://ru.wikipedia.org/wiki/HTTPS">HTTPS</a> или открывают с локального диска, далее
+                    интерпретируют код в интерфейс, который будет отображаться на экране
+                    монитора.
+                </p>
+
+                <p><a href="https://ru.wikipedia.org/wiki/Элементы_HTML">Элементы HTML</a> являются строительными
+                    блоками HTML
+                    страниц. С помощью HTML разные конструкции, изображения и
+                    другие объекты, такие как <a href="https://ru.wikipedia.org/wiki/Форма_(HTML)">интерактивная
+                        веб-форма</a>,
+                    могут быть встроены в отображаемую страницу. HTML
+                    предоставляет средства для создания заголовков, абзацев, списков, ссылок, цитат и других элементов.
+                    Элементы
+                    HTML выделяются тегами, записанными с использованием угловых скобок. Такие теги, как img и input,
+                    напрямую вводят контент на страницу. Другие теги, такие как
+                    p, окружают и оформляют текст внутри себя и могут включать другие теги в качестве подэлементов.
+                    Браузеры не
+                    отображают HTML-теги, но используют их для интерпретации содержимого страницы.</p>
+
+
+
+
+
+                <p>Язык <a href="https://ru.wikipedia.org/wiki/XHTML" target="_blank">XHTML</a> является более строгим
+                    вариантом
+                    HTML, он следует синтаксису <a href="https://ru.wikipedia.org/wiki/XML">XML</a> и является
+                    приложением языка
+                    XML
+                    в
+                    области разметки гипертекста.</p>
+
+                <p> В HTML можно встроить программный код на языке программирования <a
+                        href="https://ru.wikipedia.org/wiki/JavaScript">JavaScript</a>, для управления поведением и
+                    содержанием веб-страниц. Также включение <a href="https://ru.wikipedia.org/wiki/CSS">CSS</a> в HTML
+                    описывает
+                    внешний вид и макет страницы.</p>
+
+                <div class="oformlenie">
+                    <p>Содержание</p>
+                    <ol>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Общее_представление ">Общее представление</a>
+                        </li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Браузеры ">Браузеры</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Версии ">Версии</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Структура_HTML-документа ">Структура
+                                HTML-документа</a>
+                        </li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Рекомендуется ">Рекомендуется</a>
+                            <ol>
+                                <li><a href="https://ru.wikipedia.org/wiki/HTML#Семантические_теги: ">семантические
+                                        теги:</a>
+                                </li>
+                                <li><a href="https://ru.wikipedia.org/wiki/HTML#Специальные_символы ">Cпециальные
+                                        символы</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Браузерные_войны ">Браузерные войны</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#См._также ">См. также</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Примечания ">Примечание</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Литература ">Литература</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/HTML#Ссылки ">Ссылки</a></li>
+                    </ol>
+                </div>
+
+                <h2>Общее представление</h2>
+                <p>Язык <a href="https://ru.wikipedia.org/wiki/Гипертекст" target="_blank
+                ">гипертекстовой </a> разметки HTML был разработан британским учёным <a
+                        href="https://ru.wikipedia.org/wiki/Бернерс-Ли,_Тим">Тимом Бернерсом-Ли</a> приблизительно в <a
+                        href="https://ru.wikipedia.org/wiki/1986_год">1986</a>—<a
+                        href="https://ru.wikipedia.org/wiki/1991_год">1991</a> годах в стенах <a
+                        href="https://ru.wikipedia.org/wiki/ЦЕРН">ЦЕРНа</a> в <a
+                        href="https://ru.wikipedia.org/wiki/Женева">Женеве</a> в <a
+                        href="https://ru.wikipedia.org/wiki/Швейцария">Швейцарии</a>[3]. HTML создавался как язык для
+                    обмена
+                    научной
+                    и технической документацией, пригодный для использования людьми, не являющимися специалистами в
+                    области <a href="https://ru.wikipedia.org/wiki/Вёрстка">вёрстки</a>. HTML успешно справлялся с
+                    проблемой сложности
+                    <a href="https://ru.wikipedia.org/wiki/SGML">SGML</a> путём определения небольшого набора
+                    структурных и <a href="https://ru.wikipedia.org/wiki/Семантика">семантических</a> элементов —
+                    дескрипторов. Дескрипторы
+                    также
+                    часто называют «<a href="https://ru.wikipedia.org/wiki/Тег_(языки_разметки)">тегами</a>». С помощью
+                    HTML
+                    можно
+                    легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры
+                    документа, в
+                    HTML внесена поддержка <a href="https://ru.wikipedia.org/wiki/Гипертекст">гипертекста</a>. <a
+                        href="https://ru.wikipedia.org/wiki/Мультимедиа">Мультимедийные</a> возможности были добавлены
+                    позже.
+                </p>
+
+                <p>Первым общедоступным описанием HTML был документ «Теги HTML», впервые упомянутый в Интернете Тимом
+                    Бернерсом-Ли в
+                    конце 1991 года,[4][5]. В нём описываются 18 элементов, составляющих первоначальный, относительно
+                    простой
+                    дизайн
+                    HTML. За исключением тега гиперссылки, на них сильно повлиял SGMLguid, внутренний формат
+                    документации,
+                    основанный на стандартном обобщенном языке разметки (SGML), в CERN. Одиннадцать из этих элементов
+                    всё ещё
+                    существуют в HTML 4[6].
+                </p>
+                <p>Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов
+                    без их
+                    привязки к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без
+                    стилистических и структурных искажений воспроизводиться на оборудовании с различной технической
+                    оснащённостью
+                    (цветной экран современного компьютера, монохромный экран органайзера, ограниченный по размерам
+                    экран
+                    мобильного
+                    телефона или устройства и программы голосового воспроизведения текстов). Однако современное
+                    применение HTML
+                    очень далеко от его изначальной задачи. Например, тег table предназначен для создания в документах
+                    таблиц,
+                    но
+                    иногда используется и для оформления размещения элементов на странице. С течением времени основная
+                    идея
+                    платформонезависимости языка HTML была принесена в жертву современным потребностям в мультимедийном
+                    и
+                    графическом оформлении.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
